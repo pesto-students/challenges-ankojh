@@ -11,12 +11,12 @@ function padInFront(withCharacter, toString, totalLength) {
 function incrementStringifiedNumber(string, incrementBy = 1) {
   const incrementedNumber = parseFloat(string) + incrementBy;
   const indexOfDecimalPoint = string.indexOf('.');
-  let positionOfDecimalPoint = 0
+  let decimalPrecision = 0
   if(indexOfDecimalPoint >= 0){
-    positionOfDecimalPoint = string.length - 1 - indexOfDecimalPoint;
+    decimalPrecision = string.length - 1 - indexOfDecimalPoint;
   }
 
-  return padInFront('0', incrementedNumber.toFixed(positionOfDecimalPoint), string.length);
+  return padInFront('0', incrementedNumber.toFixed(decimalPrecision), string.length);
 }
 
 
