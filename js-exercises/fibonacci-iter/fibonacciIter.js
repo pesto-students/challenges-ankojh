@@ -13,23 +13,4 @@ const fibonacciIter = {
   }
 };
 
-
-// console.log(fibonacciIter[Symbol.iterator]().next());
-
-
-// const iterator = fibonacciIter[Symbol.iterator]();
-
-
-// console.log(iterator.next())
-// console.log(iterator.next())
-// console.log(iterator.next())
-// console.log(iterator.next())
-// console.log(iterator.next())
-
-
-// for(let i of fibonacciIter){
-//   console.log(i);
-// }
-
-
 export { fibonacciIter };
