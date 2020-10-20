@@ -1,0 +1,11 @@
+.App-ListItem{
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.App-ListItem.item-purchased{
+  background-color: red;
+}
