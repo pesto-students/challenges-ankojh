@@ -4,3 +4,13 @@
   flex-direction: column;
   align-items: center;
 }
+
+.App-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.empty-list-filler{
+  margin: 50px 0px;
+  color: grey
+}

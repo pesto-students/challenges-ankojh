@@ -1,0 +1,26 @@
+.App-Button{
+  outline:none;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(199, 199, 199);
+  cursor: pointer;
+  height: 30px;
+  /* padding: 10px; */
+  margin:10px;
+  /* color: rgb(151, 151, 151); */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(179, 179, 179);
+}
+
+.App-Button:hover{
+  box-shadow: 0px 0px 10px rgb(179, 179, 179);
+}
+
+.App-Button:disabled {
+  box-shadow: 1px solid transparent;
+  border: unset;
+}
+
+.App-Button:disabled:hover {
+  box-shadow: unset
+}
