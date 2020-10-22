@@ -1,0 +1,43 @@
+.AppChart{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.AppChart-container{
+  position: relative;
+  margin: 30px;
+}
+
+.chart-x-axis{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: -0px;
+  height: 0px;
+  left: 0px;
+  border-top: 2px solid black;
+}
+
+.chart-y-axis {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 0;
+  top: 0px;
+  left: -0px;
+  border-right: 2px solid black;
+}
+
+
+.chart-x-axis span,
+.chart-y-axis span{
+  text-align: center;
+}
+
+.chart-y-axis span{
+  position: absolute;
+  left: -20px
+}
