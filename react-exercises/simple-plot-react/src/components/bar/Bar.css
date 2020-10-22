@@ -1,0 +1,21 @@
+.AppBar{
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.AppBar-pillar:hover{
+  transition: all 0.3s;
+  cursor: pointer;
+  transform: scale(1.05);;
+}
+
+.AppBar-pillar{
+  animation: pillar 0.5s ease-in-out;
+}
+
+@keyframes pillar{
+  0% { transform : scaleY(0)}
+  100% {
+    transform: scaleY(1)
+  }
+}
